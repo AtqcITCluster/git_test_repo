@@ -1,12 +1,8 @@
 package atqc;
 
 public class ClassOneGit {
-    public static void main(String[] args) {
-        printMessage();
-    }
-
-    public static void printMessage(){
-        System.out.println("class one run");
+    public static int testMethod(int count, int count3){
+        return count * count3;
     }
 
 }
